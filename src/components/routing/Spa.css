@@ -1,0 +1,32 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  padding: 2px 10px;
+  z-index: 1000;
+  top: 55px;
+}
+
+.navbar button {
+  color: black;
+  border-radius: 10px 10px 0 0;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #e9e50d;
+}
+
+.navbar button:hover {
+  color: red;
+}
+
+.article {
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.article {
+  scroll-margin-top: 100px;
+  text-align: left;
+  font-size: 20px;
+  line-height: 1.5;
+}
